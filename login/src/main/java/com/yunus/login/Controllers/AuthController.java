@@ -34,9 +34,18 @@ public class AuthController {
         return "login";
     }
 
+    @PostMapping("/login/submit")
+    public String login(UserDto userDto, Model model){
+        User existingUser = userService.findUserByEmail(userDto.getEmail());
+        if(existingUser != null && existingUser.getEmail() != null && !existingUser.getEmail().isEmpty()){
+            return "redirect:/users";
+        }
+        return "login";
+    }
+
     // handler method to handle home page request
     @GetMapping("/index")
-    public String home(){
+    public String index(){
         return "index";
     }
 
