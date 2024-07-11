@@ -1,0 +1,225 @@
+---- AspectJ Properties ---
+AspectJ Compiler 1.9.9.1 built on Thursday Mar 31, 2022 at 05:00:07 PDT
+---- Dump Properties ---
+Dump file: ajcore.20240711.111724.521.txt
+Dump reason: abort
+Dump on exception: true
+Dump at exit condition: abort
+---- System Properties ---
+java.specification.version=17
+sun.cpu.isalist=amd64
+sun.jnu.encoding=Cp1254
+java.class.path=C:\Users\demir\OneDrive\Belgeler\Masaüstü\login\target\classes;C:\Users\demir\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.0.0\spring-boot-starter-data-jpa-3.0.0.jar;C:\Users\demir\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.0.0\spring-boot-starter-aop-3.0.0.jar;C:\Users\demir\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.0.0\spring-boot-starter-jdbc-3.0.0.jar;C:\Users\demir\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\demir\.m2\repository\org\springframework\spring-jdbc\6.0.2\spring-jdbc-6.0.2.jar;C:\Users\demir\.m2\repository\org\hibernate\orm\hibernate-core\6.1.5.Final\hibernate-core-6.1.5.Final.jar;C:\Users\demir\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\demir\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\demir\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\demir\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.2.Final\hibernate-commons-annotations-6.0.2.Final.jar;C:\Users\demir\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar;C:\Users\demir\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\demir\.m2\repository\net\bytebuddy\byte-buddy\1.12.19\byte-buddy-1.12.19.jar;C:\Users\demir\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.1\jaxb-runtime-4.0.1.jar;C:\Users\demir\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.1\jaxb-core-4.0.1.jar;C:\Users\demir\.m2\repository\org\eclipse\angus\angus-activation\1.0.0\angus-activation-1.0.0.jar;C:\Users\demir\.m2\repository\org\glassfish\jaxb\txw2\4.0.1\txw2-4.0.1.jar;C:\Users\demir\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\demir\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.0\jakarta.inject-api-2.0.0.jar;C:\Users\demir\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar;C:\Users\demir\.m2\repository\org\springframework\data\spring-data-jpa\3.0.0\spring-data-jpa-3.0.0.jar;C:\Users\demir\.m2\repository\org\springframework\data\spring-data-commons\3.0.0\spring-data-commons-3.0.0.jar;C:\Users\demir\.m2\repository\org\springframework\spring-orm\6.0.2\spring-orm-6.0.2.jar;C:\Users\demir\.m2\repository\org\springframework\spring-tx\6.0.2\spring-tx-6.0.2.jar;C:\Users\demir\.m2\repository\org\springframework\spring-beans\6.0.2\spring-beans-6.0.2.jar;C:\Users\demir\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\demir\.m2\repository\org\springframework\spring-aspects\6.0.2\spring-aspects-6.0.2.jar;C:\Users\demir\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\3.0.0\spring-boot-starter-thymeleaf-3.0.0.jar;C:\Users\demir\.m2\repository\org\springframework\boot\spring-boot-starter\3.0.0\spring-boot-starter-3.0.0.jar;C:\Users\demir\.m2\repository\org\springframework\boot\spring-boot\3.0.0\spring-boot-3.0.0.jar;C:\Users\demir\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.0.0\spring-boot-autoconfigure-3.0.0.jar;C:\Users\demir\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.0.0\spring-boot-starter-logging-3.0.0.jar;C:\Users\demir\.m2\repository\ch\qos\logback\logback-classic\1.4.5\logback-classic-1.4.5.jar;C:\Users\demir\.m2\repository\ch\qos\logback\logback-core\1.4.5\logback-core-1.4.5.jar;C:\Users\demir\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.19.0\log4j-to-slf4j-2.19.0.jar;C:\Users\demir\.m2\repository\org\slf4j\jul-to-slf4j\2.0.4\jul-to-slf4j-2.0.4.jar;C:\Users\demir\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;C:\Users\demir\.m2\repository\org\thymeleaf\thymeleaf-spring6\3.1.0.RELEASE\thymeleaf-spring6-3.1.0.RELEASE.jar;C:\Users\demir\.m2\repository\org\thymeleaf\thymeleaf\3.1.0.RELEASE\thymeleaf-3.1.0.RELEASE.jar;C:\Users\demir\.m2\repository\org\attoparser\attoparser\2.0.6.RELEASE\attoparser-2.0.6.RELEASE.jar;C:\Users\demir\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\demir\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.0.0\spring-boot-starter-web-3.0.0.jar;C:\Users\demir\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.0.0\spring-boot-starter-json-3.0.0.jar;C:\Users\demir\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\demir\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\demir\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\demir\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.14.1\jackson-datatype-jdk8-2.14.1.jar;C:\Users\demir\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.14.1\jackson-datatype-jsr310-2.14.1.jar;C:\Users\demir\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.14.1\jackson-module-parameter-names-2.14.1.jar;C:\Users\demir\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.0.0\spring-boot-starter-tomcat-3.0.0.jar;C:\Users\demir\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.1\tomcat-embed-core-10.1.1.jar;C:\Users\demir\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.1\tomcat-embed-websocket-10.1.1.jar;C:\Users\demir\.m2\repository\org\springframework\spring-web\6.0.2\spring-web-6.0.2.jar;C:\Users\demir\.m2\repository\io\micrometer\micrometer-observation\1.10.2\micrometer-observation-1.10.2.jar;C:\Users\demir\.m2\repository\io\micrometer\micrometer-commons\1.10.2\micrometer-commons-1.10.2.jar;C:\Users\demir\.m2\repository\org\springframework\spring-webmvc\6.0.2\spring-webmvc-6.0.2.jar;C:\Users\demir\.m2\repository\org\springframework\spring-expression\6.0.2\spring-expression-6.0.2.jar;C:\Users\demir\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.0.0\spring-boot-starter-validation-3.0.0.jar;C:\Users\demir\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.1\tomcat-embed-el-10.1.1.jar;C:\Users\demir\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.0.Final\hibernate-validator-8.0.0.Final.jar;C:\Users\demir\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\demir\.m2\repository\org\xerial\sqlite-jdbc\3.46.0.0\sqlite-jdbc-3.46.0.0.jar;C:\Users\demir\.m2\repository\org\slf4j\slf4j-api\2.0.4\slf4j-api-2.0.4.jar;C:\Users\demir\.m2\repository\de\invesdwin\invesdwin-instrument\1.0.13\invesdwin-instrument-1.0.13.jar;C:\Users\demir\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\demir\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\demir\.m2\repository\org\springframework\spring-context\6.0.2\spring-context-6.0.2.jar;C:\Users\demir\.m2\repository\org\springframework\spring-core\6.0.2\spring-core-6.0.2.jar;C:\Users\demir\.m2\repository\org\springframework\spring-jcl\6.0.2\spring-jcl-6.0.2.jar;C:\Users\demir\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.4\jcl-over-slf4j-2.0.4.jar;C:\Users\demir\.m2\repository\org\springframework\spring-instrument\6.0.2\spring-instrument-6.0.2.jar;C:\Users\demir\.m2\repository\org\aspectj\aspectjweaver\1.9.9.1\aspectjweaver-1.9.9.1.jar;C:\Users\demir\.m2\repository\org\zeroturnaround\zt-exec\1.11\zt-exec-1.11.jar;C:\Users\demir\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\demir\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.0.0\spring-boot-starter-security-3.0.0.jar;C:\Users\demir\.m2\repository\org\springframework\spring-aop\6.0.2\spring-aop-6.0.2.jar;C:\Users\demir\.m2\repository\org\springframework\security\spring-security-config\6.0.0\spring-security-config-6.0.0.jar;C:\Users\demir\.m2\repository\org\springframework\security\spring-security-core\6.0.0\spring-security-core-6.0.0.jar;C:\Users\demir\.m2\repository\org\springframework\security\spring-security-crypto\6.0.0\spring-security-crypto-6.0.0.jar;C:\Users\demir\.m2\repository\org\springframework\security\spring-security-web\6.0.0\spring-security-web-6.0.0.jar;C:\Users\demir\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\demir\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\demir\.m2\repository\io\projectreactor\reactor-core\3.6.8\reactor-core-3.6.8.jar;C:\Users\demir\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\demir\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\demir\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar
+java.vm.vendor=Amazon.com Inc.
+sun.arch.data.model=64
+user.variant=
+java.vendor.url=https://aws.amazon.com/corretto/
+catalina.useNaming=false
+user.timezone=Europe/Istanbul
+org.jboss.logging.provider=slf4j
+java.vm.specification.version=17
+os.name=Windows 11
+sun.java.launcher=SUN_STANDARD
+user.country=TR
+sun.boot.library.path=C:\Users\demir\.jdks\corretto-17.0.11\bin
+spring.application.admin.enabled=true
+sun.java.command=com.yunus.login.LoginApplication
+com.sun.management.jmxremote=
+jdk.debug=release
+spring.liveBeansView.mbeanDomain=
+sun.cpu.endian=little
+user.home=C:\Users\demir
+user.language=tr
+java.specification.vendor=Oracle Corporation
+java.version.date=2024-04-16
+java.home=C:\Users\demir\.jdks\corretto-17.0.11
+spring.output.ansi.enabled=always
+file.separator=\
+java.vm.compressedOopsMode=Zero based
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+java.specification.name=Java Platform API Specification
+FILE_LOG_CHARSET=UTF-8
+java.awt.headless=true
+user.script=
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.runtime.version=17.0.11+9-LTS
+user.name=demir
+spring.jmx.enabled=true
+path.separator=;
+management.endpoints.jmx.exposure.include=*
+os.version=10.0
+java.runtime.name=OpenJDK Runtime Environment
+file.encoding=UTF-8
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vendor.version=Corretto-17.0.11.9.1
+java.vendor.url.bug=https://github.com/corretto/corretto-17/issues/
+java.io.tmpdir=C:\Users\demir\AppData\Local\Temp\
+catalina.home=C:\Users\demir\AppData\Local\Temp\tomcat.8080.18061509873288635577
+com.zaxxer.hikari.pool_number=1
+java.version=17.0.11
+user.dir=C:\Users\demir\OneDrive\Belgeler\Masaüstü\login
+os.arch=amd64
+java.vm.specification.name=Java Virtual Machine Specification
+PID=14156
+sun.os.patch.level=
+CONSOLE_LOG_CHARSET=UTF-8
+catalina.base=C:\Users\demir\AppData\Local\Temp\tomcat.8080.18061509873288635577
+native.encoding=Cp1254
+java.library.path=C:\Users\demir\.jdks\corretto-17.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python312\Scripts\;C:\Python312\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\demir\AppData\Local\Microsoft\WindowsApps;C:\Users\demir\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\demir\AppData\Roaming\npm;C:\apps\apache-maven-3.6.3\bin;;.
+java.vm.info=mixed mode, emulated-client, sharing
+java.vendor=Amazon.com Inc.
+java.vm.version=17.0.11+9-LTS
+java.rmi.server.randomIDs=true
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=61.0
+---- Command Line ---
+Empty
+---- Full Classpath ---
+Empty
+---- Compiler Messages ---
+info AspectJ Weaver Version 1.9.9.1 built on Thursday Mar 31, 2022 at 05:00:07 PDT
+info register classloader jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa
+info using configuration file:/C:/Users/demir/.m2/repository/org/springframework/spring-aspects/6.0.2/spring-aspects-6.0.2.jar!/META-INF/aop.xml
+abort trouble in: 
+class org.springframework.boot.liquibase.LiquibaseChangelogMissingFailureAnalyzer extends org.springframework.boot.diagnostics.AbstractFailureAnalyzer:
+  private static final String MESSAGE_SUFFIX = " does not exist"
+  void <init>():
+                    ALOAD_0     // Lorg/springframework/boot/liquibase/LiquibaseChangelogMissingFailureAnalyzer; this   (line 30)
+                    İNVOKESPECİAL org.springframework.boot.diagnostics.AbstractFailureAnalyzer.<init> ()V
+    constructor-execution(void org.springframework.boot.liquibase.LiquibaseChangelogMissingFailureAnalyzer.<init>())
+    |               RETURN
+    constructor-execution(void org.springframework.boot.liquibase.LiquibaseChangelogMissingFailureAnalyzer.<init>())
+  end void <init>()
+
+  protected org.springframework.boot.diagnostics.FailureAnalysis analyze(Throwable, liquibase.exception.ChangeLogParseException):
+                    ALOAD_2     // Lliquibase/exception/ChangeLogParseException; cause   (line 36)
+                    İNVOKEVİRTUAL liquibase.exception.ChangeLogParseException.getMessage ()Ljava/lang/String;
+                    LDC " does not exist"
+                    İNVOKEVİRTUAL java.lang.String.endsWith (Ljava/lang/String;)Z
+                    İFEQ L0
+                    ALOAD_0     // Lorg/springframework/boot/liquibase/LiquibaseChangelogMissingFailureAnalyzer; this   (line 37)
+                    ALOAD_2     // Lliquibase/exception/ChangeLogParseException; cause
+                    İNVOKEVİRTUAL org.springframework.boot.liquibase.LiquibaseChangelogMissingFailureAnalyzer.extractChangelogPath (Lliquibase/exception/ChangeLogParseException;)Ljava/lang/String;
+                    ASTORE_3
+                    NEW org.springframework.boot.diagnostics.FailureAnalysis   (line 38)
+                    DUP
+                    ALOAD_0     // Lorg/springframework/boot/liquibase/LiquibaseChangelogMissingFailureAnalyzer; this
+                    ALOAD_3     // Ljava/lang/String; changelogPath
+                    İNVOKEVİRTUAL org.springframework.boot.liquibase.LiquibaseChangelogMissingFailureAnalyzer.getDescription (Ljava/lang/String;)Ljava/lang/String;
+                    LDC "Make sure a Liquibase changelog is present at the configured path."
+                    ALOAD_2     // Lliquibase/exception/ChangeLogParseException; cause
+                    İNVOKESPECİAL org.springframework.boot.diagnostics.FailureAnalysis.<init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+                    ARETURN
+                L0: ACONST_NULL   (line 41)
+                    ARETURN
+  end protected org.springframework.boot.diagnostics.FailureAnalysis analyze(Throwable, liquibase.exception.ChangeLogParseException)
+
+  private String extractChangelogPath(liquibase.exception.ChangeLogParseException):
+                    ALOAD_1     // Lliquibase/exception/ChangeLogParseException; cause   (line 45)
+                    İNVOKEVİRTUAL liquibase.exception.ChangeLogParseException.getMessage ()Ljava/lang/String;
+                    İCONST_0
+                    ALOAD_1     // Lliquibase/exception/ChangeLogParseException; cause
+                    İNVOKEVİRTUAL liquibase.exception.ChangeLogParseException.getMessage ()Ljava/lang/String;
+                    İNVOKEVİRTUAL java.lang.String.length ()I
+                    LDC " does not exist"
+                    İNVOKEVİRTUAL java.lang.String.length ()I
+                    İSUB
+                    İNVOKEVİRTUAL java.lang.String.substring (II)Ljava/lang/String;
+                    ARETURN
+  end private String extractChangelogPath(liquibase.exception.ChangeLogParseException)
+
+  private String getDescription(String):
+                    ALOAD_1     // Ljava/lang/String; changelogPath   (line 49)
+                    İNVOKEDYNAMİC #0.makeConcatWithConstants (Ljava/lang/String;)Ljava/lang/String;
+                    ARETURN
+  end private String getDescription(String)
+
+  protected volatile org.springframework.boot.diagnostics.FailureAnalysis analyze(Throwable, Throwable):
+                    ALOAD_0     // Lorg/springframework/boot/liquibase/LiquibaseChangelogMissingFailureAnalyzer; this   (line 30)
+                    ALOAD_1
+                    ALOAD_2
+                    CHECKCAST liquibase.exception.ChangeLogParseException
+                    İNVOKEVİRTUAL org.springframework.boot.liquibase.LiquibaseChangelogMissingFailureAnalyzer.analyze (Ljava/lang/Throwable;Lliquibase/exception/ChangeLogParseException;)Lorg/springframework/boot/diagnostics/FailureAnalysis;
+                    ARETURN
+  end protected volatile org.springframework.boot.diagnostics.FailureAnalysis analyze(Throwable, Throwable)
+
+end class org.springframework.boot.liquibase.LiquibaseChangelogMissingFailureAnalyzer
+ -- (IllegalStateException) org.aspectj.weaver.MissingResolvedTypeWithKnownSignature) (typeBindings={T=liquibase.exception.ChangeLogParseException})
+org.aspectj.weaver.MissingResolvedTypeWithKnownSignature) (typeBindings={T=liquibase.exception.ChangeLogParseException})
+java.lang.IllegalStateException: org.aspectj.weaver.MissingResolvedTypeWithKnownSignature) (typeBindings={T=liquibase.exception.ChangeLogParseException})
+	at org.aspectj.weaver.BoundedReferenceType.parameterize(BoundedReferenceType.java:112)
+	at org.aspectj.weaver.ResolvedType.parameterize(ResolvedType.java:2549)
+	at org.aspectj.weaver.ResolvedMemberImpl.parameterize(ResolvedMemberImpl.java:897)
+	at org.aspectj.weaver.ResolvedMemberImpl.parameterizedWith(ResolvedMemberImpl.java:789)
+	at org.aspectj.weaver.ResolvedMemberImpl.parameterizedWith(ResolvedMemberImpl.java:742)
+	at org.aspectj.weaver.ReferenceType.getDeclaredMethods(ReferenceType.java:865)
+	at org.aspectj.weaver.ResolvedType$MethodGetterIncludingItds.get(ResolvedType.java:271)
+	at org.aspectj.weaver.ResolvedType$MethodGetterIncludingItds.get(ResolvedType.java:268)
+	at org.aspectj.weaver.Iterators$4$1.hasNext(Iterators.java:213)
+	at org.aspectj.weaver.Iterators$4.hasNext(Iterators.java:230)
+	at org.aspectj.weaver.ResolvedType.lookupResolvedMember(ResolvedType.java:642)
+	at org.aspectj.weaver.JoinPointSignatureIterator.findSignaturesFromSupertypes(JoinPointSignatureIterator.java:192)
+	at org.aspectj.weaver.JoinPointSignatureIterator.hasNext(JoinPointSignatureIterator.java:68)
+	at org.aspectj.weaver.patterns.SignaturePattern.matches(SignaturePattern.java:317)
+	at org.aspectj.weaver.patterns.KindedPointcut.matchInternal(KindedPointcut.java:202)
+	at org.aspectj.weaver.patterns.Pointcut.match(Pointcut.java:137)
+	at org.aspectj.weaver.patterns.AndPointcut.matchInternal(AndPointcut.java:56)
+	at org.aspectj.weaver.patterns.Pointcut.match(Pointcut.java:137)
+	at org.aspectj.weaver.patterns.OrPointcut.matchInternal(OrPointcut.java:60)
+	at org.aspectj.weaver.patterns.Pointcut.match(Pointcut.java:137)
+	at org.aspectj.weaver.ShadowMunger.match(ShadowMunger.java:113)
+	at org.aspectj.weaver.Advice.match(Advice.java:113)
+	at org.aspectj.weaver.bcel.BcelAdvice.match(BcelAdvice.java:161)
+	at org.aspectj.weaver.bcel.BcelClassWeaver.match(BcelClassWeaver.java:3330)
+	at org.aspectj.weaver.bcel.BcelClassWeaver.match(BcelClassWeaver.java:2710)
+	at org.aspectj.weaver.bcel.BcelClassWeaver.weave(BcelClassWeaver.java:483)
+	at org.aspectj.weaver.bcel.BcelClassWeaver.weave(BcelClassWeaver.java:103)
+	at org.aspectj.weaver.bcel.BcelWeaver.weave(BcelWeaver.java:1706)
+	at org.aspectj.weaver.bcel.BcelWeaver.weaveWithoutDump(BcelWeaver.java:1650)
+	at org.aspectj.weaver.bcel.BcelWeaver.weaveAndNotify(BcelWeaver.java:1417)
+	at org.aspectj.weaver.bcel.BcelWeaver.weave(BcelWeaver.java:1192)
+	at org.aspectj.weaver.tools.WeavingAdaptor.getWovenBytes(WeavingAdaptor.java:549)
+	at org.aspectj.weaver.tools.WeavingAdaptor.weaveClass(WeavingAdaptor.java:385)
+	at org.aspectj.weaver.loadtime.Aj.preProcess(Aj.java:115)
+	at org.aspectj.weaver.loadtime.ClassPreProcessorAgentAdapter.transform(ClassPreProcessorAgentAdapter.java:51)
+	at org.springframework.context.weaving.AspectJWeavingEnabler$AspectJClassBypassingClassFileTransformer.transform(AspectJWeavingEnabler.java:122)
+	at org.springframework.instrument.classloading.InstrumentationLoadTimeWeaver$FilteringClassFileTransformer.transform(InstrumentationLoadTimeWeaver.java:192)
+	at java.instrument/java.lang.instrument.ClassFileTransformer.transform(ClassFileTransformer.java:244)
+	at java.instrument/sun.instrument.TransformerManager.transform(TransformerManager.java:188)
+	at java.instrument/sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:541)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:283)
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:224)
+	at org.springframework.core.io.support.SpringFactoriesLoader.load(SpringFactoriesLoader.java:206)
+	at org.springframework.boot.diagnostics.FailureAnalyzers.loadFailureAnalyzers(FailureAnalyzers.java:69)
+	at org.springframework.boot.diagnostics.FailureAnalyzers.<init>(FailureAnalyzers.java:64)
+	at org.springframework.boot.diagnostics.FailureAnalyzers.<init>(FailureAnalyzers.java:58)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.core.io.support.SpringFactoriesLoader$FactoryInstantiator.instantiate(SpringFactoriesLoader.java:381)
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:228)
+	at org.springframework.core.io.support.SpringFactoriesLoader.load(SpringFactoriesLoader.java:206)
+	at org.springframework.core.io.support.SpringFactoriesLoader.load(SpringFactoriesLoader.java:160)
+	at org.springframework.boot.SpringApplication.getSpringFactoriesInstances(SpringApplication.java:459)
+	at org.springframework.boot.SpringApplication.getExceptionReporters(SpringApplication.java:800)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:784)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.yunus.login.LoginApplication.main(LoginApplication.java:14)
+
