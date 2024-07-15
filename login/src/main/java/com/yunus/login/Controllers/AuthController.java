@@ -35,12 +35,21 @@ public class AuthController {
     }
 
     @PostMapping("/login/submit")
-    public String login(UserDto userDto, Model model){
+    public String submit(@Valid @ModelAttribute("user") UserDto userDto,
+                               BindingResult result,
+                               Model model){
         User existingUser = userService.findUserByEmail(userDto.getEmail());
+
         if(existingUser != null && existingUser.getEmail() != null && !existingUser.getEmail().isEmpty()){
-            return "redirect:/users";
+           return "/users";
         }
-        return "login";
+        else {
+            result.rejectValue("email", null,
+                    "Böyle bir kullanıcı bulunamadı");
+
+            model.addAttribute("user", userDto);
+            return "/login";
+        }
     }
 
     // handler method to handle home page request
