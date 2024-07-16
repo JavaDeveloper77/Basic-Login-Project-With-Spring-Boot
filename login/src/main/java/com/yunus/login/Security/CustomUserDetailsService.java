@@ -1,10 +1,9 @@
-package com.yunus.login.Security;
+package com.yunus.Login.Security;
 
-import com.yunus.login.Entities.Role;
-import com.yunus.login.Entities.User;
-import com.yunus.login.Repositories.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Lazy;
+
+import com.yunus.Login.Entity.Role;
+import com.yunus.Login.Entity.User;
+import com.yunus.Login.Repository.UserRepository;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -20,8 +19,7 @@ public class CustomUserDetailsService implements UserDetailsService {
 
     private UserRepository userRepository;
 
-    @Autowired
-    public CustomUserDetailsService(@Lazy UserRepository userRepository) {
+    public CustomUserDetailsService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
 
@@ -39,7 +37,7 @@ public class CustomUserDetailsService implements UserDetailsService {
     }
 
     private Collection < ? extends GrantedAuthority> mapRolesToAuthorities(Collection <Role> roles) {
-        Collection< ? extends GrantedAuthority> mapRoles = roles.stream()
+        Collection < ? extends GrantedAuthority> mapRoles = roles.stream()
                 .map(role -> new SimpleGrantedAuthority(role.getName()))
                 .collect(Collectors.toList());
         return mapRoles;

@@ -17,11 +17,11 @@
 		<java.version>17</java.version>
 	</properties>
 	<repositories>
-	<repository>
-		<id>my-repo1</id>
-		<name>your custom repo</name>
-		<url>https://maven.imagej.net/content/repositories/public/</url>
-	</repository>
+		<repository>
+			<id>my-repo1</id>
+			<name>your custom repo</name>
+			<url>https://maven.imagej.net/content/repositories/public/</url>
+		</repository>
 	</repositories>
 	<dependencies>
 		<dependency>
@@ -68,7 +68,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
 	</dependencies>
 
 	<build>

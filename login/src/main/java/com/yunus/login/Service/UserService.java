@@ -1,7 +1,9 @@
-package com.yunus.login.Service;
+package com.yunus.Login.Service;
 
-import com.yunus.login.DTO.UserDto;
-import com.yunus.login.Entities.User;
+
+
+import com.yunus.Login.DTO.UserDto;
+import com.yunus.Login.Entity.User;
 
 import java.util.List;
 

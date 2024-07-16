@@ -1,4 +1,4 @@
-package com.yunus.login.DTO;
+package com.yunus.Login.DTO;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;
