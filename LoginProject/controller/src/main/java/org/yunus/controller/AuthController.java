@@ -34,6 +34,14 @@ public class AuthController {
         return "login";
     }
 
+    @PostMapping("/isLogin")
+    public String isLogin(@Valid @ModelAttribute("user") UserDto userDto){
+        User existingUser = userService.findUserByEmail(userDto.getEmail());
+        if(existingUser != null && existingUser.getEmail() != null && !existingUser.getEmail().isEmpty()){
+            return "users";
+        }
+        return "login";
+    }
     // handler method to handle user registration form request
     @GetMapping("/register")
     public String showRegistrationForm(Model model){
